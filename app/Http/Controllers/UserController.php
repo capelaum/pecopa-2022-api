@@ -57,7 +57,9 @@ class UserController extends Controller
 
         $data = $request->validated();
 
-        $data['username'] = str_replace(' ', '_', trim($data['username']));
+        if (isset($data['username'])) {
+            $data['username'] = str_replace(' ', '_', trim($data['username']));
+        }
 
         if ($request->avatar) {
             $cloudinaryFolder = config('app.cloudinary_folder');
