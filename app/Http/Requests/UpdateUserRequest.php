@@ -29,6 +29,13 @@ class UpdateUserRequest extends FormRequest
         if ($method === 'PUT') {
             return [
                 "name" => "required|string|min:3|max:255",
+                "username" => [
+                    'required',
+                    'string',
+                    'min:3',
+                    'max:255',
+                    Rule::unique('users')->ignore($this->user->id),
+                ],
                 "email" => [
                     'required',
                     'string',
@@ -44,6 +51,14 @@ class UpdateUserRequest extends FormRequest
 
         return [
             "name" => "sometimes|required|string|min:3|max:255",
+            "username" => [
+                'sometimes',
+                'required',
+                'string',
+                'min:3',
+                'max:255',
+                Rule::unique('users')->ignore($this->user->id),
+            ],
             "email" => [
                 'sometimes',
                 'required',
