@@ -26,7 +26,6 @@ class GuessController extends Controller
         $data['home_team_score'] = $request->home_team_score;
         $data['away_team_score'] = $request->away_team_score;
 
-        // do not allow to create guess if game time is in the past
         $gameId = $data['game_id'];
 
         $game = Game::find($gameId);
