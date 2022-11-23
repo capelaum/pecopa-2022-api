@@ -12,7 +12,7 @@ class GameSeeder extends Seeder
 
     private $groupPhaseGames = [
         [
-            'game_time' => '2022-11-20T16:00:00Z',
+            'game_time' => '2022-11-20T13:00:00Z',
             'home_team_slug' => 'CAT',
             'home_team_name' => 'Catar',
             'away_team_slug' => 'EQU',
@@ -21,7 +21,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-21T16:00:00Z',
+            'game_time' => '2022-11-21T13:00:00Z',
             'home_team_slug' => 'SEN',
             'home_team_name' => 'Senegal',
             'away_team_slug' => 'HOL',
@@ -30,7 +30,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-25T13:00:00Z',
+            'game_time' => '2022-11-25T10:00:00Z',
             'home_team_slug' => 'CAT',
             'home_team_name' => 'Catar',
             'away_team_slug' => 'SEN',
@@ -39,7 +39,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-25T16:00:00Z',
+            'game_time' => '2022-11-25T13:00:00Z',
             'home_team_slug' => 'HOL',
             'home_team_name' => 'Holanda',
             'away_team_slug' => 'EQU',
@@ -48,7 +48,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-29T15:00:00Z',
+            'game_time' => '2022-11-29T12:00:00Z',
             'home_team_slug' => 'HOL',
             'home_team_name' => 'Holanda',
             'away_team_slug' => 'CAT',
@@ -57,7 +57,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-29T15:00:00Z',
+            'game_time' => '2022-11-29T12:00:00Z',
             'home_team_slug' => 'EQU',
             'home_team_name' => 'Equador',
             'away_team_slug' => 'SEN',
@@ -66,7 +66,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-21T13:00:00Z',
+            'game_time' => '2022-11-21T10:00:00Z',
             'home_team_slug' => 'ING',
             'home_team_name' => 'Inglaterra',
             'away_team_slug' => 'IRA',
@@ -75,7 +75,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-21T19:00:00Z',
+            'game_time' => '2022-11-21T16:00:00Z',
             'home_team_slug' => 'EUA',
             'home_team_name' => 'Estados Unidos',
             'away_team_slug' => 'GAL',
@@ -84,7 +84,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-25T10:00:00Z',
+            'game_time' => '2022-11-25T07:00:00Z',
             'home_team_slug' => 'GAL',
             'home_team_name' => 'País de Gales',
             'away_team_slug' => 'IRA',
@@ -93,7 +93,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-25T19:00:00Z',
+            'game_time' => '2022-11-25T16:00:00Z',
             'home_team_slug' => 'ING',
             'home_team_name' => 'Inglaterra',
             'away_team_slug' => 'EUA',
@@ -102,7 +102,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-29T19:00:00Z',
+            'game_time' => '2022-11-29T16:00:00Z',
             'home_team_slug' => 'IRA',
             'home_team_name' => 'Irã',
             'away_team_slug' => 'EUA',
@@ -111,7 +111,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-29T19:00:00Z',
+            'game_time' => '2022-11-29T16:00:00Z',
             'home_team_slug' => 'GAL',
             'home_team_name' => 'País de Gales',
             'away_team_slug' => 'ING',
@@ -120,7 +120,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-22T10:00:00Z',
+            'game_time' => '2022-11-22T07:00:00Z',
             'home_team_slug' => 'ARG',
             'home_team_name' => 'Argentina',
             'away_team_slug' => 'ARA',
@@ -129,7 +129,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-22T16:00:00Z',
+            'game_time' => '2022-11-22T13:00:00Z',
             'home_team_slug' => 'MEX',
             'home_team_name' => 'México',
             'away_team_slug' => 'POL',
@@ -138,7 +138,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-26T13:00:00Z',
+            'game_time' => '2022-11-26T10:00:00Z',
             'home_team_slug' => 'POL',
             'home_team_name' => 'Polônia',
             'away_team_slug' => 'ARA',
@@ -147,7 +147,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-26T19:00:00Z',
+            'game_time' => '2022-11-26T16:00:00Z',
             'home_team_slug' => 'ARG',
             'home_team_name' => 'Argentina',
             'away_team_slug' => 'MEX',
@@ -156,7 +156,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-30T19:00:00Z',
+            'game_time' => '2022-11-30T16:00:00Z',
             'home_team_slug' => 'POL',
             'home_team_name' => 'Polônia',
             'away_team_slug' => 'ARG',
@@ -165,7 +165,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-30T19:00:00Z',
+            'game_time' => '2022-11-30T16:00:00Z',
             'home_team_slug' => 'ARA',
             'home_team_name' => 'Arábia Saudita',
             'away_team_slug' => 'MEX',
@@ -174,7 +174,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-22T13:00:00Z',
+            'game_time' => '2022-11-22T10:00:00Z',
             'home_team_slug' => 'DIN',
             'home_team_name' => 'Dinamarca',
             'away_team_slug' => 'TUN',
@@ -184,7 +184,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-11-22T19:00:00Z',
+            'game_time' => '2022-11-22T16:00:00Z',
             'home_team_slug' => 'FRA',
             'home_team_name' => 'França',
             'away_team_slug' => 'AUS',
@@ -193,7 +193,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-26T10:00:00Z',
+            'game_time' => '2022-11-26T07:00:00Z',
             'home_team_slug' => 'TUN',
             'home_team_name' => 'Tunísia',
             'away_team_slug' => 'AUS',
@@ -202,7 +202,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-26T16:00:00Z',
+            'game_time' => '2022-11-26T13:00:00Z',
             'home_team_slug' => 'FRA',
             'home_team_name' => 'França',
             'away_team_slug' => 'DIN',
@@ -211,7 +211,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-30T15:00:00Z',
+            'game_time' => '2022-11-30T12:00:00Z',
             'home_team_slug' => 'TUN',
             'home_team_name' => 'Tunísia',
             'away_team_slug' => 'FRA',
@@ -220,7 +220,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-30T15:00:00Z',
+            'game_time' => '2022-11-30T12:00:00Z',
             'home_team_slug' => 'AUS',
             'home_team_name' => 'Austrália',
             'away_team_slug' => 'DIN',
@@ -229,7 +229,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-23T13:00:00Z',
+            'game_time' => '2022-11-23T10:00:00Z',
             'home_team_slug' => 'ALE',
             'home_team_name' => 'Alemanha',
             'away_team_slug' => 'JAP',
@@ -239,7 +239,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-11-23T16:00:00Z',
+            'game_time' => '2022-11-23T13:00:00Z',
             'home_team_slug' => 'ESP',
             'home_team_name' => 'Espanha',
             'away_team_slug' => 'CRC',
@@ -249,7 +249,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-11-27T10:00:00Z',
+            'game_time' => '2022-11-27T07:00:00Z',
             'home_team_slug' => 'JAP',
             'home_team_name' => 'Japão',
             'away_team_slug' => 'CRC',
@@ -258,7 +258,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-27T19:00:00Z',
+            'game_time' => '2022-11-27T16:00:00Z',
             'home_team_slug' => 'ESP',
             'home_team_name' => 'Espanha',
             'away_team_slug' => 'ALE',
@@ -267,7 +267,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-12-01T19:00:00Z',
+            'game_time' => '2022-12-01T16:00:00Z',
             'home_team_slug' => 'JAP',
             'home_team_name' => 'Japão',
             'away_team_slug' => 'ESP',
@@ -277,7 +277,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-12-01T19:00:00Z',
+            'game_time' => '2022-12-01T16:00:00Z',
             'home_team_slug' => 'CRC',
             'home_team_name' => 'Costa Rica',
             'away_team_slug' => 'ALE',
@@ -286,7 +286,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-11-23T10:00:00Z',
+            'game_time' => '2022-11-23T07:00:00Z',
             'home_team_slug' => 'MAR',
             'home_team_name' => 'Marrocos',
             'away_team_slug' => 'CRO',
@@ -295,7 +295,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-23T19:00:00Z',
+            'game_time' => '2022-11-23T16:00:00Z',
             'home_team_slug' => 'BEL',
             'home_team_name' => 'Bélgica',
             'away_team_slug' => 'CAN',
@@ -304,7 +304,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-27T13:00:00Z',
+            'game_time' => '2022-11-27T10:00:00Z',
             'home_team_slug' => 'BEL',
             'home_team_name' => 'Bélgica',
             'away_team_slug' => 'MAR',
@@ -313,7 +313,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-27T16:00:00Z',
+            'game_time' => '2022-11-27T13:00:00Z',
             'home_team_slug' => 'CRO',
             'home_team_name' => 'Croácia',
             'away_team_slug' => 'CAN',
@@ -323,7 +323,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-12-01T15:00:00Z',
+            'game_time' => '2022-12-01T12:00:00Z',
             'home_team_slug' => 'CRO',
             'home_team_name' => 'Croácia',
             'away_team_slug' => 'BEL',
@@ -333,7 +333,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-12-01T15:00:00Z',
+            'game_time' => '2022-12-01T12:00:00Z',
             'home_team_slug' => 'CAN',
             'home_team_name' => 'Canadá',
             'away_team_slug' => 'MAR',
@@ -344,7 +344,7 @@ class GameSeeder extends Seeder
 
 
         [
-            'game_time' => '2022-11-24T10:00:00Z',
+            'game_time' => '2022-11-24T07:00:00Z',
             'home_team_slug' => 'SUI',
             'home_team_name' => 'Suíça',
             'away_team_slug' => 'CAM',
@@ -353,7 +353,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-24T19:00:00Z',
+            'game_time' => '2022-11-24T16:00:00Z',
             'home_team_slug' => 'BRA',
             'home_team_name' => 'Brasil',
             'away_team_slug' => 'SER',
@@ -362,7 +362,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-28T10:00:00Z',
+            'game_time' => '2022-11-28T07:00:00Z',
             'home_team_slug' => 'CAM',
             'home_team_name' => 'Camarões',
             'away_team_slug' => 'SER',
@@ -371,7 +371,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-28T16:00:00Z',
+            'game_time' => '2022-11-28T13:00:00Z',
             'home_team_slug' => 'BRA',
             'home_team_name' => 'Brasil',
             'away_team_slug' => 'SUI',
@@ -380,7 +380,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-12-02T19:00:00Z',
+            'game_time' => '2022-12-02T16:00:00Z',
             'home_team_slug' => 'CAM',
             'home_team_name' => 'Camarões',
             'away_team_slug' => 'BRA',
@@ -389,7 +389,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-12-02T19:00:00Z',
+            'game_time' => '2022-12-02T16:00:00Z',
             'home_team_slug' => 'SER',
             'home_team_name' => 'Sérvia',
             'away_team_slug' => 'SUI',
@@ -399,7 +399,7 @@ class GameSeeder extends Seeder
         ],
 
         [
-            'game_time' => '2022-11-24T13:00:00Z',
+            'game_time' => '2022-11-24T10:00:00Z',
             'home_team_slug' => 'URU',
             'home_team_name' => 'Uruguai',
             'away_team_slug' => 'COR',
@@ -408,7 +408,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-24T16:00:00Z',
+            'game_time' => '2022-11-24T13:00:00Z',
             'home_team_slug' => 'POR',
             'home_team_name' => 'Portugal',
             'away_team_slug' => 'GAN',
@@ -417,7 +417,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 1',
         ],
         [
-            'game_time' => '2022-11-28T13:00:00Z',
+            'game_time' => '2022-11-28T10:00:00Z',
             'home_team_slug' => 'COR',
             'home_team_name' => 'Coreia do Sul',
             'away_team_slug' => 'GAN',
@@ -426,7 +426,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-11-28T19:00:00Z',
+            'game_time' => '2022-11-28T16:00:00Z',
             'home_team_slug' => 'POR',
             'home_team_name' => 'Portugal',
             'away_team_slug' => 'URU',
@@ -435,7 +435,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 2',
         ],
         [
-            'game_time' => '2022-12-02T15:00:00Z',
+            'game_time' => '2022-12-02T12:00:00Z',
             'home_team_slug' => 'COR',
             'home_team_name' => 'Coreia do Sul',
             'away_team_slug' => 'POR',
@@ -444,7 +444,7 @@ class GameSeeder extends Seeder
             'round' => 'Rodada 3',
         ],
         [
-            'game_time' => '2022-12-02T15:00:00Z',
+            'game_time' => '2022-12-02T12:00:00Z',
             'home_team_slug' => 'GAN',
             'home_team_name' => 'Gana',
             'away_team_slug' => 'URU',
@@ -456,7 +456,7 @@ class GameSeeder extends Seeder
 
     private $knockoutPhaseGames = [
         [
-            'game_time' => '2022-12-03T15:00:00Z',
+            'game_time' => '2022-12-03T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -464,7 +464,7 @@ class GameSeeder extends Seeder
             'round' => 'Oitavas de final',
         ],
         [
-            'game_time' => '2022-12-03T19:00:00Z',
+            'game_time' => '2022-12-03T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -472,16 +472,7 @@ class GameSeeder extends Seeder
             'round' => 'Oitavas de final',
         ],
         [
-            'game_time' => '2022-12-04T15:00:00Z',
-            'home_team_slug' => '?',
-            'home_team_name' => 'A confirmar',
-            'away_team_slug' => '?',
-            'away_team_name' => 'A confirmar',
-            'round' => 'Oitavas de final',
-        ],
-        [
-
-            'game_time' => '2022-12-04T19:00:00Z',
+            'game_time' => '2022-12-04T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -490,7 +481,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-05T15:00:00Z',
+            'game_time' => '2022-12-04T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -499,7 +490,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-05T19:00:00Z',
+            'game_time' => '2022-12-05T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -508,7 +499,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-06T15:00:00Z',
+            'game_time' => '2022-12-05T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -517,7 +508,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-06T19:00:00Z',
+            'game_time' => '2022-12-06T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -526,7 +517,16 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-09T15:00:00Z',
+            'game_time' => '2022-12-06T16:00:00Z',
+            'home_team_slug' => '?',
+            'home_team_name' => 'A confirmar',
+            'away_team_slug' => '?',
+            'away_team_name' => 'A confirmar',
+            'round' => 'Oitavas de final',
+        ],
+        [
+
+            'game_time' => '2022-12-09T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -535,7 +535,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-09T19:00:00Z',
+            'game_time' => '2022-12-09T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -544,7 +544,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-10T15:00:00Z',
+            'game_time' => '2022-12-10T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -553,7 +553,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-10T19:00:00Z',
+            'game_time' => '2022-12-10T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -562,7 +562,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-13T19:00:00Z',
+            'game_time' => '2022-12-13T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -571,7 +571,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-14T19:00:00Z',
+            'game_time' => '2022-12-14T16:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -580,7 +580,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-17T15:00:00Z',
+            'game_time' => '2022-12-17T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
@@ -589,7 +589,7 @@ class GameSeeder extends Seeder
         ],
         [
 
-            'game_time' => '2022-12-18T15:00:00Z',
+            'game_time' => '2022-12-18T12:00:00Z',
             'home_team_slug' => '?',
             'home_team_name' => 'A confirmar',
             'away_team_slug' => '?',
