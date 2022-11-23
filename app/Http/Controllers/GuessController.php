@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreGuessRequest;
 use App\Http\Resources\GuessCollection;
 use App\Http\Resources\GuessResource;
+use App\Models\Game;
 use App\Models\Guess;
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
@@ -24,6 +25,17 @@ class GuessController extends Controller
         $data['game_id'] = $request->game_id;
         $data['home_team_score'] = $request->home_team_score;
         $data['away_team_score'] = $request->away_team_score;
+
+        // do not allow to create guess if game time is in the past
+        $gameId = $data['game_id'];
+
+        $game = Game::find($gameId);
+
+        if ($game->game_time < now()) {
+            return response()->json([
+                'message' => 'Você não pode fazer palpites para jogos que já começaram.'
+            ], 422);
+        }
 
         $guess = Guess::create($data);
 
